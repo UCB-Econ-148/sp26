@@ -19,31 +19,44 @@
 # providing the readings field.
 
 lectures:
-  - slug: intro
-    readings:
-      - title: Introduction
-        link: https://inferentialthinking.com/chapters/01/what-is-data-science/index.html
+  - slug: 1
   - slug: 2
-    readings: 
-      - title: Causality and Experiments
-        link: https://inferentialthinking.com/chapters/02/causality-and-experiments/index.html
-  - slug: "03"
-    readings:
-      - links: 
-          - text: "Programming in Python"
-            url: "https://inferentialthinking.com/chapters/03/programming-in-python/"
-          - text: "Data Types"
-            url: "https://inferentialthinking.com/chapters/04/data-types/"
-  - slug: "04"
-  - slug: "05"
-  - slug: "06"
-  - slug: "07"
-  # - skip: true
-  - slug: "08"
-  - title: "No Lecture"
+  - slug: 3
+  - slug: 4
+  - slug: 5
+  - slug: 6
+  - slug: 7
+  - slug: 8
+  - slug: 9
+  - slug: 10
+  - slug: 11
+  - slug: 12
+  - slug: 13
+  - slug: 14
+  - slug: 15
+  - slug: 16
+  - slug: 17
+  - slug: 18
+  - title: "Spring Break"
     nonumber: true
-    # link: "https://registrar.berkeley.edu/wp-content/uploads/UCB_AcademicCalendar_2025-26.pdf"
-  - slug: "09"
-  - slug: "10"
-  - slug: "11"
-
+  - title: "Spring Break"
+    nonumber: true
+  - slug: 19
+  - slug: 20
+  - title: "Midterm Week"
+    nonumber: true
+  - slug: 21
+  - slug: 22
+  - slug: 23
+  - slug: 24
+  - slug: 25
+  - slug: 26
+  - slug: 27
+  - title: "RRR Week"
+    nonumber: true
+  - title: "RRR Week"
+    nonumber: true
+  - title: "Finals Week"
+    nonumber: true
+  - title: "Finals Week"
+    nonumber: true

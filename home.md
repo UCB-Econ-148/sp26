@@ -1,37 +1,27 @@
 ---
 layout: page
-title: Welcome!
-nav_exclude: true
+title: Schedule
 permalink: /
 seo:
   type: Course
-  name: Berkeley Class Site
+  name: Econ 148
+nav_order: 1
 ---
 
-# UC Berkeley Class Site Template
+# Data Science for Economists
+{: .mb-2 }
+## UC Berkeley, Spring 2025
+{: .mb-2 .fs-6 .text-grey-dk-200 }
 
-A template for static UC Berkeley class websites (with a focus on EECS/CS/DS courses) built with [Jekyll](https://jekyllrb.com/), [Just the Docs](jtd), and [Just the Class](https://kevinl.info/just-the-class/).
+[PollEV](https://pollev.com/ericvandusen){: .btn .btn-bcourses }
+[DataHub](https://datahub.berkeley.edu/){: .btn .btn-datahub }
+[Ed](https://edstem.org/us/courses/{{ site.ed_course_id }}){:target="_blank" .btn .btn-ed .mr-1 }
+[Gradescope](https://www.gradescope.com/courses/ {{ site.gradescope_course_id }}/){:target="_blank" .btn .btn-gradescope .mr-1 }
+<!-- [Lecture Recordings](https://kaltura.berkeley.edu/channel/Econ148%2B-%2BSp25/367836372){:target="_blank" .btn .btn-recordings .mr-1}  -->
+[Extensions](https://flextensions.berkeley.edu/){:target="_blank" .btn .btn-extensions .mr-1 }
+<!-- [Extenuating Circumstances](https://docs.google.com/forms/d/e/1FAIpQLSe8Dnrl97NEaaAcG828ZJyyX64jnE-0RYRGPHIoX3PrvCGwkQ/viewform?usp=dialog){:target="_blank" .btn .btn-officehours .mr-1 }  -->
+[Anonymous Feedback](https://docs.google.com/forms/d/e/1FAIpQLSf4pPF0cKy91eJsR9JT8pY2sk1SVyR7yVINtliVnu_LoXFrUg/viewform?usp=sharing){:target="_blank" .btn .btn-officehours .mr-1 } 
 
-- [announcements](announcements),
-- a [course calendar](calendar),
-- a [staff](staff) page,
-- and a weekly [schedule](schedule).
-**Ready to get started? See our [documentation]({% link docs/index.md %}).**
-
-## Features
-
-- **Fast development**: Focus on writing course content in Markdown that is automatically compiled into HTML/CSS. Run a single terminal command to build and preview the website. Any changes you make trigger autoregeneration of relevant website files and you just need to refresh to see them.
-- **Accessible by default**: We have [continuous integration]({% link docs/continuous-integration.md %}) workflows that ensure that the entire website is accessible to users with disabilities (whether in light or dark mode)
-- **Reasonable defaults and boilerplate**: Using this template comes with all the commonly used pages needed in a course website, such as home page, [syllabus]({% link syllabus.md %}), [course schedule](% link schedule.md %), assignment pages, [staff page]({% link staff.md %}), [resources]({% link resources.md %}), and calendar (both [static]({% link calendar.md %}) and [dynamic]({% link calendar_dynamic.md %}) if your course uses Google Calendar).
-- **UI components and styling out of the box**: This template comes with all the UI components, styling, and colors from [Just the Docs][jtd] as well as [UC Berkeley branding](https://brand.berkeley.edu/).
-- **Instant, full text search**
-- **Light and dark mode**
-
-## Examples
-
-- [Data 6](https://data6.org/fa25)
-- [Data 8](https://www.data8.org/fa25)
-- [Data 100](https://ds100.org/fa25)
-- [Data 101](https://data101.org/fa25)
-
-[jtd]: https://just-the-docs.com/
+<div>
+{%- include schedule.html -%}
+</div>

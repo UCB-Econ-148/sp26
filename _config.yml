@@ -14,66 +14,48 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-# TODO(setup): Typically the course number, "DEPT XXX". it appears on nearly every page. Keep it short. :)
-title: A Berkeley Course
-# TODO:(setup): This should be the extended title of your course. e.g. "Introduction to Data Science"
-tagline: A Jekyll template for course websites
-description: A modern, highly customizable, responsive Jekyll template for course websites
-# TODO(template): this should be built from the staff list...
-author: Various Bears
+title: Econ 148
+tagline: Data Science for Economists
+description: "UC Berkeley Econ 148: Data Science for Economists"
+author: Econ 148 Staff
 
-# TODO(setup): Set this to the semester, e.g. /sp24, (faXX / spXX / suXX / wiXX )
-baseurl: '/berkeley-class-site' # the subpath of your site, which should just be the semester.
-# TODO(setup): Set this to your course's domain
-url: 'https://berkeley-eecs.github.io' # the hostname & protocol for your site, e.g. http://example.com
+baseurl: '/sp26' # the subpath of your site, which should just be the semester.
+url: 'https://econ148.org' # the hostname & protocol for your site, e.g. http://example.com
 
 # Course variables
 # Course variables can appear in various places around the website, if something isn't used leave it blank.
-# TODO(setup): Set all of these course variables
 course: SAMPLE 101
-course_email: COURSE_EMAIL@berkeley.edu
-gradescope_course_id: 123456 # you can find this in the Gradescope URL after /courses
-bcourses_course_id: 123456 # Same as above, but for bCourses. Leave blank if not in use...
-ed_course_id: 123456 # Again, same as above.
-sememster: spYY | suYY | faYY # set for the current seemester
-# TODO(template): We need to set this up.
-course_logo_path:
+course_email: 
+gradescope_course_id: 
+bcourses_course_id: 
+ed_course_id: 
+sememster: Spring 2026
+course_logo_path: assets/images/branding/logo.png
 # This should be one of eecs, dsus, stat
-# (Future) This will control some footer text, and later custom styling.
 course_department: dsus
-# This should be the page of all class archives
-# Typically just / for DS courses (with a visible index page), or /archives if you're hosting your own, or a link to the inst.eecs page
-# If you have no archive page, comment this line out or leave blank.
 class_archive_path: /
 
-# TODO(setup): Remove this line if your favicon is named favicon.ico and is in the root directory,
-# otherwise set this to the path to your favicon.
-# favicons can be course specific or you can use the default Berkeley one that comes with the template.
-favicon_ico: "/favicon.png"
+nav_external_links:
+  - title: Textbook
+    url: https://www.econ148.org/textbook/
+    hide_icon: true
 
-# TODO(setup): Set these auxiliary links as you wish - they show up on the top right
 aux_links:
-  # TODO(template): Move this to be built-in.
+  DataHub:
+    - 'https://datahub.berkeley.edu/'
   Ed:
     - 'https://edstem.org'
-  OH Queue:
-    - 'https://oh.c88c.org'
-  View Template on GitHub:
-    - 'https://github.com/berkeley-eecs/berkeley-class-site'
+  Gradescope:
+    - 'https://www.gradescope.com/'
+  # Lecture Recordings:
+  #   - ''
 
-# TODO(template): These need to be documented
-# TODO(semester): You may want to review these...
 berkeley_theme_options:
   show_logo_in_sidebar: true
 
-# TODO(template): Copy class information to the template.
 google_calendar:
-  # This can be found in the settings for the calendar.
-  # The calendar must be publicly readable.
-  google_calendar_id: c_134c9c007d75a399b5e7b39377d2f4e45c9db648f2df4417f8c9a490cb0726d1@group.calendar.google.com
-  # You need to make this, once per course, ideally via a SPA
-  # TODO: Recommend adding link to Google cloud project here
-  google_api_key: AIzaSyBombNhLEEZRjCfG4Fp5PpmICYBZO3PvY8
+  google_calendar_id: c_9b09870cab8b2b70fd7c42e6467eee8a5d1a02f803e395bd8946f414be08c102@group.calendar.google.com
+  google_api_key: AIzaSyCue8iHIV5lA0-xUX-eRYu57r4bpoPQvkI
   # These are processed in order, top-to-bottom, first match applies
   # The prefix/suffix matches the Google Calendar event *title*
   # You may use only prefix OR suffix, see fullcalendar.js
@@ -125,7 +107,7 @@ collections:
     permalink: /:collection/:path/
   lectures:
     output: true
-    sort_by: number # Date could work...
+    sort_by: date
     permalink: /lectures/:path/
   hw:
     output: true
@@ -159,7 +141,7 @@ defaults:
     values:
       layout: discussion
       nav_exclude: true
-      subpath: 'assets/discussions/'
+      subpath: '/assets/discussions/'
   - scope:
       path: ''
       type: hw
@@ -178,7 +160,7 @@ defaults:
     values:
       layout: staffer
       height: 300
-      subpath: '/assets/images/'
+      subpath: '/assets/images/staff/'
       width: 300
   - scope:
       path: ''

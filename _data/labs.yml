@@ -13,10 +13,18 @@
 # link overrides the default link to the lab page from the collection if 
 # you provided a slug or provides an external link
 labs:
-  - slug: lab01
-  - title: Lab 2
-    link: https://datahub.berkeley.edu/hub/login?next=%2Fhub%2F
-  - title: Lab 3
   - skip: true
-  - title: Lab 4
-  - title: Lab 5
+  - title: "Pandas"
+    link: "https://datahub.berkeley.edu/"
+  - title: "API IPUMS"
+  - title: "Surveys and RCT"
+  - title: "Visualization"
+  - title: "Dubai"
+  - title: "SQL"
+  - title: "Metrics: Card and Kreuger"
+  - title: "Survival"
+  - skip: true
+  - title: "Time Series"
+  - skip: true
+  - title: "Lab 10"
+  - title: "Lab 11"
