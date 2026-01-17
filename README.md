@@ -1,9 +1,6 @@
-# Berkeley Class Site
+# Econ 148 Spring 2026 Website
 
-[![Pages Deployment](https://github.com/berkeley-cdss/berkeley-class-site/actions/workflows/jekyll.yml/badge.svg)](https://github.com/berkeley-cdss/berkeley-class-site/actions/workflows/jekyll.yml) •
-[![a11y specs](https://github.com/berkeley-cdss/berkeley-class-site/actions/workflows/rspec.yml/badge.svg)](https://github.com/berkeley-cdss/berkeley-class-site/actions/workflows/rspec.yml)
-
-A template for UC Berkeley class websites (with a focus on EECS/CS/DS courses).
+[![Deploy Jekyll site to Pages](https://github.com/UCB-Econ-148/sp26/actions/workflows/jekyll.yml/badge.svg)](https://github.com/UCB-Econ-148/sp26/actions/workflows/jekyll.yml) [![Run all page tests](https://github.com/UCB-Econ-148/sp26/actions/workflows/rspec.yml/badge.svg)](https://github.com/UCB-Econ-148/sp26/actions/workflows/rspec.yml)
 
 ## Installation
 
