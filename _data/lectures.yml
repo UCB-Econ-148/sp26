@@ -21,11 +21,11 @@
 lectures:
   - slug: 1
     readings:
-      links:
-        - text: "Lecture 1 Notebook: Introduction"
-          url: "https://chatgpt.com/"
-        - text: "DataHub"
-          url: "https://datahub.berkeley.edu/"
+      - links: 
+          - text: "Programming in Python"
+            url: "https://inferentialthinking.com/chapters/03/programming-in-python/"
+          - text: "Data Types"
+            url: "https://inferentialthinking.com/chapters/04/data-types/"
   - slug: 2
   - slug: 3
   - slug: 4
