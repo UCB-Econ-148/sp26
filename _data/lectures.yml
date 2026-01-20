@@ -19,8 +19,8 @@
 # providing the readings field.
 
 lectures:
-  - title: Slides
-    link: https://docs.google.com/presentation/d/1sg7r5B3NHezbgvLOG-q_dq36fJ2-LcjCy7gJlLosuak/edit?usp=sharing
+  - title: "Slides"
+    link: "https://docs.google.com/presentation/d/1sg7r5B3NHezbgvLOG-q_dq36fJ2-LcjCy7gJlLosuak/edit?usp=sharing"
     readings:
       - links: 
           - text: "Crypto"
