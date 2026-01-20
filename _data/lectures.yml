@@ -19,13 +19,14 @@
 # providing the readings field.
 
 lectures:
-  - slug: 1
+  - title: Slides
+    link: https://docs.google.com/presentation/d/1sg7r5B3NHezbgvLOG-q_dq36fJ2-LcjCy7gJlLosuak/edit?usp=sharing
     readings:
       - links: 
-          - text: "Programming in Python"
-            url: "https://inferentialthinking.com/chapters/03/programming-in-python/"
-          - text: "Data Types"
-            url: "https://inferentialthinking.com/chapters/04/data-types/"
+          - text: "Crypto"
+            url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec1.1%2FCryptoPrice_CoincompareAPI.ipynb"
+          - text: "DSL in NetworkX"
+            url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec1.1%2FDSL_NetworkX.ipynb"
   - slug: 2
   - slug: 3
   - slug: 4
