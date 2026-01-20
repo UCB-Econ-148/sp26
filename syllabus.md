@@ -138,11 +138,11 @@ Here's how we will compute your grade.
 
 | Component | Weight | Notes |
 | --- | --- | --- |
-| Participation | 15% | Including lectures, discussion sections, and Ed |
+| Participation | 10% | Including lectures, discussion sections, and Ed |
 | Labs | 25% | 1 lab drop |
 | Projects 1 + 2| 20% | no drops |
 | Project 3| 15% | |
-| Midterm | 25% | |
+| Midterm | 30% | |
 
 #### Participation
 
