@@ -20,6 +20,10 @@
 
 lectures:
   - slug: 1
+    link: "google slides"
+    readings:
+      - text: "Lecture 1 Notebook: Introduction"
+        url: "https://chatgpt.com/"
   - slug: 2
   - slug: 3
   - slug: 4
