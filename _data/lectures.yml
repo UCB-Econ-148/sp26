@@ -21,9 +21,11 @@
 lectures:
   - slug: 1
     link: "google slides"
-    notebooks:
+    readings:
       - text: "Lecture 1 Notebook: Introduction"
         link: "https://chatgpt.com/"
+      - text: "DataHub"
+        link: "https://datahub.berkeley.edu/"
   - slug: 2
   - slug: 3
   - slug: 4
