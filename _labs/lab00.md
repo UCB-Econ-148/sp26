@@ -1,7 +1,7 @@
 ---
 title: Lab 0
-description: Intro to Jupyter Notebooks (Optional)
-due: "2026-05-15 11:59:59 PM PST"
+description: Control and Functions
+due: "2024-06-13 11:59:59 PM PST"
 gradescope_assignment_id: 3858564
 submission_files:
     - lab01.py

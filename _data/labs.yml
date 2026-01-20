@@ -13,7 +13,8 @@
 # link overrides the default link to the lab page from the collection if 
 # you provided a slug or provides an external link
 labs:
-  - skip: true
+  - title: "Intro to Jupyter Lab"
+    link: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab00%2Flab00.ipynb"
   - title: "Pandas"
     link: "https://datahub.berkeley.edu/"
   - title: "API IPUMS"
