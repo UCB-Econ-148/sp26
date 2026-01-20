@@ -20,7 +20,6 @@
 
 lectures:
   - slug: 1
-    link: "google slides"
     readings:
       links:
         - text: "Lecture 1 Notebook: Introduction"
