@@ -10,7 +10,7 @@ nav_order: 1
 
 # Data Science for Economists
 {: .mb-2 }
-## UC Berkeley, Spring 2025
+## UC Berkeley, Spring 2026
 {: .mb-2 .fs-6 .text-grey-dk-200 }
 
 [PollEV](https://pollev.com/ericvandusen){: .btn .btn-bcourses }
