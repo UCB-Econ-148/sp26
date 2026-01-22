@@ -30,11 +30,6 @@ lectures:
     readings:
       - title: "Chapter 2"
         link:  https://www.econ148.org/textbook/content/02-prereqs/index.html
-  - title: ""
-    # link: https://docs.google.com/presentation/d/1sg7r5B3NHezbgvLOG-q_dq36fJ2-LcjCy7gJlLosuak/edit?usp=sharing
-    readings:
-      - title: "Chapter 3"
-        link: https://www.econ148.org/textbook/content/03-pandas/index.html
   - title: "Slides"
     link: https://docs.google.com/presentation/d/1nfwHdhZkt1G0in8bLQ8KwnYUf7SgooYy57eOTEDa1oU/edit?usp=sharing
     notebooks:
