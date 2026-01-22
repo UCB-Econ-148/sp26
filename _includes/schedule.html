@@ -342,57 +342,54 @@
           </td>
 
           <td style="width:{{ site.data.syllabus.col3_width }}; vertical-align: top;">
-            {%- comment -%} --- NOTEBOOKS LOGIC --- {%- endcomment -%}
             {%- if lec_entry and site.data.syllabus.class_days contains day_of_week -%}
+
+            {%- comment -%} --- NOTEBOOKS LOGIC --- {%- endcomment -%}
                 {%- if lec_entry.notebooks -%}
-                    <div class="syllabus-item" style="margin-bottom: 4px;">
-                        <strong class="label label-notebook">Notebook</strong>
-                        
-                        <span class="notebooks-list">
-                        {%- for nb in lec_entry.notebooks -%}
-                            {%- if nb.links -%}
-                                {%- for item in nb.links -%}
-                                    <a href="{{ item.url }}">{{ item.text }}</a>{% unless forloop.last %}, {% endunless %}
-                                {%- endfor -%}
-                            {%- elsif nb.link -%}
-                                <a href="{{ nb.link }}">{{ nb.title }}</a>
-                            {%- else -%}
+                    {%- for nb in lec_entry.notebooks -%}
+                        {%- if nb.links -%}
+                            {%- for item in nb.links -%}
+                                <div class="syllabus-item" style="margin-bottom: 4px;">
+                                    <strong class="label label-notebook" style="margin-right: 8px;">Notebook</strong>
+                                    <a href="{{ item.url }}">{{ item.text }}</a>
+                                </div>
+                            {%- endfor -%}
+                        {%- elsif nb.link -%}
+                            <div class="syllabus-item" style="margin-bottom: 4px;">
+                                <strong class="label label-notebook" style="margin-right: 8px;">Notebook</strong>
+                                <a href="{{ nb.link }}">{{ nb.title | default: "Notebook" }}</a>
+                            </div>
+                        {%- elsif nb.title -%}
+                            <div class="syllabus-item" style="margin-bottom: 4px;">
+                                <strong class="label label-notebook" style="margin-right: 8px;">Notebook</strong>
                                 <span>{{ nb.title }}</span>
-                            {%- endif -%}
-                            
-                            {%- comment -%} Add a comma between different reading entries in the YAML list {%- endcomment -%}
-                            {%- unless forloop.last -%}, {% endunless -%}
-                        {%- endfor -%}
-                        </span>
-                    </div>
+                            </div>
+                        {%- endif -%}
+                    {%- endfor -%}
                 {%- endif -%}
-            {%- endif -%}
 
             {%- comment -%} --- READINGS LOGIC --- {%- endcomment -%}
-            {%- if lec_entry and site.data.syllabus.class_days contains day_of_week -%}
                 {%- if lec_entry.readings -%}
-                    <div class="syllabus-item" style="margin-bottom: 4px;">
-                        <strong class="label label-reading">Reading</strong>
-                        
-                        <span class="readings-list">
-                        {%- for r in lec_entry.readings -%}
-                            {%- if r.links -%}
-                                {%- comment -%} Handle multiple links list (e.g., Python, Data Types) {%- endcomment -%}
-                                {%- for item in r.links -%}
-                                    <a href="{{ item.url }}">{{ item.text }}</a>{% unless forloop.last %}, {% endunless %}
-                                {%- endfor -%}
-                            {%- elsif r.link -%}
-                                {%- comment -%} Handle single title/link pair {%- endcomment -%}
-                                <a href="{{ r.link }}">{{ r.title }}</a>
-                            {%- else -%}
+                    {%- for r in lec_entry.readings -%}
+                        {%- if r.links -%}
+                            {%- for item in r.links -%}
+                                <div class="syllabus-item" style="margin-bottom: 4px;">
+                                    <strong class="label label-reading">Reading</strong>
+                                    <a href="{{ item.url }}">{{ item.text }}</a>
+                                </div>
+                            {%- endfor -%}
+                        {%- elsif r.link -%}
+                            <div class="syllabus-item" style="margin-bottom: 4px;">
+                                <strong class="label label-reading" style="margin-right: 8px;">Reading</strong>
+                                <a href="{{ r.link }}">{{ r.title | default: "Reading" }}</a>
+                            </div>
+                        {%- elsif r.title -%}
+                            <div class="syllabus-item" style="margin-bottom: 4px;">
+                                <strong class="label label-reading" style="margin-right: 8px;">Reading</strong>
                                 <span>{{ r.title }}</span>
-                            {%- endif -%}
-                            
-                            {%- comment -%} Add a comma between different reading entries in the YAML list {%- endcomment -%}
-                            {%- unless forloop.last -%}, {% endunless -%}
-                        {%- endfor -%}
-                        </span>
-                    </div>
+                            </div>
+                        {%- endif -%}
+                    {%- endfor -%}
                 {%- endif -%}
             {%- endif -%}
 
