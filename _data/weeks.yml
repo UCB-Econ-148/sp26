@@ -1,0 +1,21 @@
+### WEEK LABELS ###
+# entries should either be 
+# title: "title here" 
+# or
+# skip: true
+weeks:
+  - title: "Introduction"
+  - title: "Pandas and API"
+  - title: "FRED API & Pandas"
+  - title: "Surveys and RCTs"
+  - title: "Visualization"
+  - title: "Visualization and Mapping"
+  - title: "SQL"
+  - title: "Econometrics"
+  - title: "Survival Analysis"
+  - skip: true
+  - title: "Time Series"
+  - skip: true # midterm
+  - title: "Machine Learning"
+  - title: "Machine Learning"
+  - title: "AI"
