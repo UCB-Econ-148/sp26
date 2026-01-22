@@ -342,11 +342,37 @@
           </td>
 
           <td style="width:{{ site.data.syllabus.col3_width }}; vertical-align: top;">
-            {%- comment -%} --- READINGS LOGIC (Consolidated & Inline) --- {%- endcomment -%}
-            {%- if site.data.syllabus.class_days contains day_of_week -%}
+            {%- comment -%} --- NOTEBOOKS LOGIC --- {%- endcomment -%}
+            {%- if lec_entry and site.data.syllabus.class_days contains day_of_week -%}
+                {%- if lec_entry.notebooks -%}
+                    <div class="syllabus-item" style="margin-bottom: 4px;">
+                        <strong class="label label-notebook">Notebook</strong>
+                        
+                        <span class="notebooks-list">
+                        {%- for nb in lec_entry.notebooks -%}
+                            {%- if nb.links -%}
+                                {%- for item in nb.links -%}
+                                    <a href="{{ item.url }}">{{ item.text }}</a>{% unless forloop.last %}, {% endunless %}
+                                {%- endfor -%}
+                            {%- elsif nb.link -%}
+                                <a href="{{ nb.link }}">{{ nb.title }}</a>
+                            {%- else -%}
+                                <span>{{ nb.title }}</span>
+                            {%- endif -%}
+                            
+                            {%- comment -%} Add a comma between different reading entries in the YAML list {%- endcomment -%}
+                            {%- unless forloop.last -%}, {% endunless -%}
+                        {%- endfor -%}
+                        </span>
+                    </div>
+                {%- endif -%}
+            {%- endif -%}
+
+            {%- comment -%} --- READINGS LOGIC --- {%- endcomment -%}
+            {%- if lec_entry and site.data.syllabus.class_days contains day_of_week -%}
                 {%- if lec_entry.readings -%}
                     <div class="syllabus-item" style="margin-bottom: 4px;">
-                        <strong class="label label-reading">Notebooks</strong>
+                        <strong class="label label-reading">Reading</strong>
                         
                         <span class="readings-list">
                         {%- for r in lec_entry.readings -%}
