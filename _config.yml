@@ -55,7 +55,7 @@ berkeley_theme_options:
 
 google_calendar:
   google_calendar_id: c_9b09870cab8b2b70fd7c42e6467eee8a5d1a02f803e395bd8946f414be08c102@group.calendar.google.com
-  google_api_key: AIzaSyCue8iHIV5lA0-xUX-eRYu57r4bpoPQvkI
+  google_api_key: AIzaSyCYeqd79-nNNI7NF5py4h-o43rQ9LMTFts
   # These are processed in order, top-to-bottom, first match applies
   # The prefix/suffix matches the Google Calendar event *title*
   # You may use only prefix OR suffix, see fullcalendar.js
