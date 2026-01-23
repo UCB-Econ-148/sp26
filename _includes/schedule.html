@@ -259,7 +259,7 @@
 
                             {%- comment -%} 4. RENDER LINK OR TITLE {%- endcomment -%}
                             {%- if display_link -%}
-                                <a href="{{ display_link }}">{{ display_title }}</a>
+                                <a href="{{ display_link }}" target="_blank" rel="noopener noreferrer">{{ display_title }}</a>
                             {%- else -%}
                                 <span>{{ display_title }}</span>
                             {%- endif -%}
@@ -332,7 +332,7 @@
                 <div class="syllabus-item" style="margin-bottom: 8px;">
                 <strong class="label label-project">Project {{project.label-number}}</strong>
                 {%- if project.link -%}
-                    <a href="{{ project.link }}">{{ project.title }}</a>
+                    <a href="{{ project.link }}" target="_blank" rel="noopener noreferrer">{{ project.title }}</a>
                 {%- else -%}
                     {{ project.title }}
                 {%- endif -%}
@@ -351,14 +351,13 @@
                             {%- for item in nb.links -%}
                                 <div class="syllabus-item" style="margin-bottom: 4px;">
                                     <strong class="label label-notebook" style="margin-right: 8px;">Notebook</strong>
-                                    <a href="{{ item.url }}">{{ item.text }}</a>
+                                    <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.text }}</a>
                                 </div>
                             {%- endfor -%}
                         {%- elsif nb.link -%}
                             <div class="syllabus-item" style="margin-bottom: 4px;">
                                 <strong class="label label-notebook" style="margin-right: 8px;">Notebook</strong>
-                                <a href="{{ nb.link }}">{{ nb.title | default: "Notebook" }}</a>
-                            </div>
+                                <a href="{{ nb.link }}" target="_blank" rel="noopener noreferrer">{{ nb.title | default: "Notebook" }}</a>                            </div>
                         {%- elsif nb.title -%}
                             <div class="syllabus-item" style="margin-bottom: 4px;">
                                 <strong class="label label-notebook" style="margin-right: 8px;">Notebook</strong>
@@ -375,13 +374,13 @@
                             {%- for item in r.links -%}
                                 <div class="syllabus-item" style="margin-bottom: 4px;">
                                     <strong class="label label-reading">Reading</strong>
-                                    <a href="{{ item.url }}">{{ item.text }}</a>
+                                    <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.text }}</a>
                                 </div>
                             {%- endfor -%}
                         {%- elsif r.link -%}
                             <div class="syllabus-item" style="margin-bottom: 4px;">
                                 <strong class="label label-reading" style="margin-right: 8px;">Reading</strong>
-                                <a href="{{ r.link }}">{{ r.title | default: "Reading" }}</a>
+                                <a href="{{ r.link }}" target="_blank" rel="noopener noreferrer">{{ r.title | default: "Reading" }}</a>
                             </div>
                         {%- elsif r.title -%}
                             <div class="syllabus-item" style="margin-bottom: 4px;">
