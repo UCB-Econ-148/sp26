@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: calender_dynamic
 title: Calendar
 description: Lecture, Discussion and OH schedules
 nav_order: 3
