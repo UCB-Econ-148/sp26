@@ -60,7 +60,7 @@ google_calendar:
   # The prefix/suffix matches the Google Calendar event *title*
   # You may use only prefix OR suffix, see fullcalendar.js
   event_types:
-    - suffix: Lecture
+    - suffix: LEC
       background_color: '9FD1FF' # Blue light
       text_color: '000'
       class: cal-lecture
@@ -75,7 +75,7 @@ google_calendar:
       text_color: '000'
       class: cal-tea-oh
       icon: fa-person-circle-question
-    - suffix: Office Hours
+    - suffix: OH
       background_color: 'D9CEFF' # purple light
       text_color: '000000'
       class: cal-oh
