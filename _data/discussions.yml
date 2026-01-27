@@ -14,7 +14,8 @@
 # you provided a slug or provides an external link
 discussions:
   - skip: true
-  - title: ""
+  - title: "Pandas"
+    link: "https://docs.google.com/presentation/d/158vjbo5Pp3AJPkoLSXDffqsLIqXt1Goe5P4gSxA7aZg/edit?usp=sharing"
   - title: ""
   - title: ""
   - title: ""
