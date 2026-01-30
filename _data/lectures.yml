@@ -36,9 +36,36 @@ lectures:
       - links: 
         - text: "VibeCession"
           url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec2%2Fvibecession-Jan26.ipynb"
-
-  - title: ""
-    # link: https://docs.google.com/presentation/d/1sg7r5B3NHezbgvLOG-q_dq36fJ2-LcjCy7gJlLosuak/edit?usp=sharing
+  - title: "Slides"
+    link: https://docs.google.com/presentation/d/157GcWJrjG_bfaOgFUTTasHM-6zOY_s7hf6yyTvokfAQ/edit?usp=sharing
+    notebooks:
+      - links: 
+        - text: "JapanJan26"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec2.1%2FJapanJan26.ipynb"
+      - links: 
+        - text: "ETD Blank"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec2.1%2FLec2.1-blank.ipynb"
+      - links: 
+        - text: "ETD Example"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec2.1%2FLec2.1-blank.ipynb"
+      - links: 
+        - text: "ETD Analyst"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec2.1%2FLec2-Analyst.ipynb"
+  - title: "Slides"
+    link: https://docs.google.com/presentation/d/1ipKhQ8GhmsR7NId5OFk2FIApJ1rsdns1-vLI7cZo-yw/edit?usp=sharing
+    notebooks:
+      - links: 
+        - text: "Jim Church Slides"
+          url: "https://docs.google.com/presentation/d/1oHP2sLDP1g52ZhET5fuPoEv62HbwJZKrAAaS31lplFE/edit?usp=sharing"
+      - links:
+        - text: "WRDS Introduction"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2FLec2.2%2FWRDS2025.ipynb"
+      - links: 
+        - text: "Dewey Data"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2FLec2.2%2FDewey_sample.ipynb"
+      - links: 
+        - text: "FOMC_Reading"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2FLec2.2%2FLec2.2_reading_fomc.ipynb"
   - title: ""
     # link: https://docs.google.com/presentation/d/1sg7r5B3NHezbgvLOG-q_dq36fJ2-LcjCy7gJlLosuak/edit?usp=sharing
   - title: ""
