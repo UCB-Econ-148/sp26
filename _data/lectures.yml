@@ -66,6 +66,16 @@ lectures:
       - links: 
         - text: "FOMC_Reading"
           url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2FLec2.2%2FLec2.2_reading_fomc.ipynb"
+  - title: "Slides"
+    link: https://docs.google.com/presentation/d/1W-mxIXBE4VL1MRacjFyC18u_P3G0U3WjF_81VLuGDsI/edit?usp=sharing
+    notebooks:
+      - links:
+        - text: "UCB Majors"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec3.1%2FLec3.1_UCBdegreedata.ipynb"
+      - links:
+        - text: "EIA API"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec3.1%2FLec3.1_EIA_api_notebook.ipynb"
+     
   - title: ""
     # link: https://docs.google.com/presentation/d/1sg7r5B3NHezbgvLOG-q_dq36fJ2-LcjCy7gJlLosuak/edit?usp=sharing
   - title: ""
