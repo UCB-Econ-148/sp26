@@ -75,8 +75,21 @@ lectures:
       - links:
         - text: "EIA API"
           url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec3.1%2FLec3.1_EIA_api_notebook.ipynb"
-     
-  - title: ""
+  - title: "Slides"
+    link: https://docs.google.com/presentation/d/1l9HKxeIkNpQiFtnfn2VXPsIhGZEVTlK9yb1LcqMtlAY/edit?usp=sharing
+    notebooks:
+      - links:
+        - text: "RBM Big Mac"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec3.2%2FRMB_BIgMac.ipynb"
+      - links:
+        - text: "FRED Shading"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec3.2%2Flec3.2-Fred.ipynb"
+      - links:
+        - text: "Inflation Merge"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec3.2%2FInflationExpectations_Merge.ipynb"
+      - links:
+        - text: "Phillips 3D"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec3.2%2FPhillips3D.ipynb"
     # link: https://docs.google.com/presentation/d/1sg7r5B3NHezbgvLOG-q_dq36fJ2-LcjCy7gJlLosuak/edit?usp=sharing
   - title: ""
     # link: https://docs.google.com/presentation/d/1sg7r5B3NHezbgvLOG-q_dq36fJ2-LcjCy7gJlLosuak/edit?usp=sharing
