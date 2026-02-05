@@ -170,7 +170,7 @@ There will be 3 projects in total. Projects 1 and 2 have a weight of 10% each, w
 
 Assignments are due to Gradescope at 11:59PM on the day that they are due. We will have a small grace period of 5 minutes (until 12:05 am) to account for any technical difficulties. It is your responsibility to be proactive about your submissions; staff are not expected to be active on midnight to help you with submission issues.
 
-Students are allowed to submit labs and projects late for a 50% penalty within 48 hours after they are due, after which they will receive no credit. We will factor in late submissions when we're calculating grades at the end of the semester.
+Students are allowed to submit labs and projects late for a 2% penalty for every hour after they are due. After 2 days, they will receive no credit. We will factor in late submissions when we're calculating grades at the end of the semester.
 
 **Extensions:** We know this is a stressful time, and we don't want to penalize you because of circumstances that are out of your control. To request an extension, please visit [Flextensions](https://flextensions.berkeley.edu/) as soon as possible (definitely before the deadline). As long as your request is within reason, there's a good chance of it being granted. Students with DSP accommodations that allow for late assignment submissions will still need to fill out the google form, but no explanation will be required.
 
