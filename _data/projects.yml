@@ -5,9 +5,7 @@
 # 1, 2, 3, etc. or A, B, C, etc. or whatever you want
 projects:
   - title: "Regional GDP"
-    date: 2026-02-06
     link: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Fproj%2Fproj01%2Fproj01.ipynb"
-    label-number: 1
   - title: "Mariel Boatlift"
     date: 2026-02-26
     label-number: 2
