@@ -22,6 +22,7 @@ nav_order: 1
 <!-- [Extenuating Circumstances](https://docs.google.com/forms/d/e/1FAIpQLSe8Dnrl97NEaaAcG828ZJyyX64jnE-0RYRGPHIoX3PrvCGwkQ/viewform?usp=dialog){:target="_blank" .btn .btn-officehours .mr-1 }  -->
 [Anonymous Feedback](https://docs.google.com/forms/d/e/1FAIpQLSf4pPF0cKy91eJsR9JT8pY2sk1SVyR7yVINtliVnu_LoXFrUg/viewform?usp=sharing){:target="_blank" .btn .btn-officehours .mr-1 } 
 [Kaltura Recordings](https://kaltura.berkeley.edu/channel/Econ%2B148%2B%2B-%2BSP26/397969993){: .btn .btn-bcourses }
+[Excused Absence Form](https://forms.gle/eVGgvUjBo2efrdJdA){: .btn .btn-bcourses }
 
 <div>
 {%- include schedule.html -%}
