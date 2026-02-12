@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // TODO: 30 min default makes the calendar tall...
     // 1 hour is too compact?
     // slotDuration: '01:00:00',
-    slotMinTime: '09:00:00',
+    slotMinTime: '08:00:00',
     slotMaxTime: '21:00:00',
     contentHeight: 'auto',
     height: 'auto',
