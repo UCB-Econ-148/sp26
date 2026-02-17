@@ -104,7 +104,17 @@ lectures:
       - links:
         - text: "Sea Level Rise"
           url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec4.2%2FNOAA_SeaLevel_Rise_KingTIdes.ipynb"
-# link: https://docs.google.com/presentation/d/1sg7r5B3NHezbgvLOG-q_dq36fJ2-LcjCy7gJlLosuak/edit?usp=sharing
+  - title: "Slides"
+    link: https://docs.google.com/presentation/d/1LLt4W9ojMLM0VrfJ0JAIXL8HlyhNx_br61Mv2f5gLbg/edit?usp=sharing
+    notebooks:
+      - links:
+        - text: "Viz Demo"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec5.1%2FViz-1.ipynb"
+        - text: "Finance Demo"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec5.1%2FFinanceDemo.ipynb"
+        - text: "Avocados Log"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec5.1%2FAvocados_Log.ipynb"
+## link: https://docs.google.com/presentation/d/1sg7r5B3NHezbgvLOG-q_dq36fJ2-LcjCy7gJlLosuak/edit?usp=sharing
   - title: ""
     # link: https://docs.google.com/presentation/d/1sg7r5B3NHezbgvLOG-q_dq36fJ2-LcjCy7gJlLosuak/edit?usp=sharing
   - title: ""
