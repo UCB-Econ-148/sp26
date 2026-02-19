@@ -114,6 +114,14 @@ lectures:
           url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec5.1%2FFinanceDemo.ipynb"
         - text: "Avocados Log"
           url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec5.1%2FAvocados_Log.ipynb"
+  - title: "Slides"
+    link: https://docs.google.com/presentation/d/1nYCuDNPXS4rimhyRpKJDadjTjQ-vUGpm7WTHl3ZwPdA/edit?usp=sharing
+    notebooks:
+      - links:
+        - text: "County GDP"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec5.2%2Fall_counties.ipynb"
+        - text: "Bollinger with Trading"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec5.2%2FBollinger_widget.ipynb"
 ## link: https://docs.google.com/presentation/d/1sg7r5B3NHezbgvLOG-q_dq36fJ2-LcjCy7gJlLosuak/edit?usp=sharing
   - title: ""
     # link: https://docs.google.com/presentation/d/1sg7r5B3NHezbgvLOG-q_dq36fJ2-LcjCy7gJlLosuak/edit?usp=sharing
