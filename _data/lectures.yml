@@ -128,6 +128,14 @@ lectures:
       - links:
         - text: "Plotly Demo"
           url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec6.1%2FPlotly_Demo_Proj1_225.ipynb"
+  - title: "Slides"
+    link: https://docs.google.com/presentation/d/1l1v2PK2dtxKubsZcN9BNoWr7PEjH4NvyRFzCReR8BJA/edit?usp=sharing
+    notebooks:
+      - links:
+        - text: "CESXCommColl"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec6.2%2FCES2-CommColl.ipynb"
+        - text: "Justice40"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec6.2%2Fjustice40.ipynb"
 ## link: https://docs.google.com/presentation/d/1sg7r5B3NHezbgvLOG-q_dq36fJ2-LcjCy7gJlLosuak/edit?usp=sharing
   - title: ""
     # link: https://docs.google.com/presentation/d/1sg7r5B3NHezbgvLOG-q_dq36fJ2-LcjCy7gJlLosuak/edit?usp=sharing
