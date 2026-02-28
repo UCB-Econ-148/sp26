@@ -10,6 +10,7 @@ projects:
     label-number: 1
   - title: "Mariel Boatlift"
     date: 2026-02-26
+    link: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Fproj%2Fproj02%2Fproj02.ipynb"
     label-number: 2
   - title: "Project 3"
     date: 2026-04-09
