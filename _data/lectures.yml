@@ -158,6 +158,7 @@ lectures:
           url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec7.2%2FSQL_Intro_FPL.ipynb"
   - title: "Justin Lecture Slides"
     link : https://docs.google.com/presentation/d/1OA1KHzj_QUEiuOq6qOmMk0NUmw84Fr7dk9uOxTPdwPQ/edit?usp=sharing
+  - title: "Class Cancelled"
   - title: "Survival Analysis Slides"
     link: https://docs.google.com/presentation/d/1Eo8DPz9-j1kgUGB05fYt5n3RZ5hiIuhQrkRNxIAHdnE/edit?usp=sharing
     notebooks:
