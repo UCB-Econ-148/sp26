@@ -185,10 +185,19 @@ lectures:
     nonumber: true
   - title: "Spring Break"
     nonumber: true
-  - title: ""
+  - title: "David Reiley - Correlation and Causation"
     # link: https://docs.google.com/presentation/d/1sg7r5B3NHezbgvLOG-q_dq36fJ2-LcjCy7gJlLosuak/edit?usp=sharing
-  - title: ""
-    # link: https://docs.google.com/presentation/d/1sg7r5B3NHezbgvLOG-q_dq36fJ2-LcjCy7gJlLosuak/edit?usp=sharing
+  - title: "Time Series Slides"
+    link: https://docs.google.com/presentation/d/1Dto4O5RybII1RBl_WYWaTC2R6JkKgaajUkr_wMMM-OQ/edit?usp=sharing
+    notebooks:
+      - links:
+        - text: "TimeSeries_Intro"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec10.2%2FLec10-2.ipynb"
+        - text: "TimeSeries_Prophet"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec10.2%2Ftime_series_forecasting_comparison.ipynb"
+        - text: "Prophet_3"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec10.2%2FProphetDemo3.ipynb"
+##  - title: ""
   - title: "Midterm Week"
     nonumber: true
     # link: https://docs.google.com/presentation/d/1sg7r5B3NHezbgvLOG-q_dq36fJ2-LcjCy7gJlLosuak/edit?usp=sharing
