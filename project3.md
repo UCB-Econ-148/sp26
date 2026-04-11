@@ -13,6 +13,7 @@ nav_order: 7
 * [Project Tracks](#project-tracks)
 * [Use of AI and Code Standards](#use-of-ai-and-code-standards)
 * [Timeline & Milestones](#timeline--milestones)
+* [Project and Group Sign Up](#project-and-group-sign-up)
 * [Deliverables and Submissions](#deliverables-and-submissions)
     * [Checkpoint 1](#checkpoint-1)
     * [Checkpoint 2](#checkpoint-2)
