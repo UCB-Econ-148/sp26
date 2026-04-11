@@ -65,10 +65,21 @@ You may use AI assistants (Claude, ChatGPT, Copilot, etc.) for this project. How
 
 ---
 
+## Project and Group Sign Up
+Good collaboration and leadership will be needed for a successful reproduction. We ask that you organize yourself in groups of 3-5. Groups may have members from different discussion sections. We encourage you to use Ed as a place to look for team members.
+
+We have included a group [sign up sheet](https://docs.google.com/spreadsheets/d/1A5QKqW-8yZ6fRtVc5YPWOSnk5j9AtxBjtRx6RK7ZiJQ/edit?usp=sharing). Please fill out your full name and Berkeley email accordingly under the Group Signup subsheet. All groups should be finalized and we will close the sheets on April 15th at 11:59 pm.
+
+You also have to decide a group leader who will be main contact for new members and other logistics within the group. Please only reach out to the group leader for any inquiries about joining the group.
+
+There is also a group status drop down that only the group rep should change. When the drop down is set to open, you're allowing new members to join by adding their names under your group directly. When you set the group status to closed, no new members can join unless an exception has been agreed upon.  
+
+Under the Project Signup subsheet, please specify the track and project your group will work on by putting the group leader's name accordingly. There is a limit of 15 groups per project. 
+
+
 ## Deliverables and Submissions
 
 ### Checkpoint 1
-**Due Date:** Friday, April 18, 2025
 
 This will be a separate Gradescope assignment that will be due earlier. There is no need to submit any code; a write-up of your progress so far (preferably in LaTeX) will suffice.
 
@@ -89,7 +100,6 @@ This will be a separate Gradescope assignment that will be due earlier. There is
 ---
 
 ### Checkpoint 2
-**Due Date:** Friday, April 25, 2025
 
 One person from your group must fill out the designated **Google Form** for this checkpoint. 
 
@@ -135,7 +145,6 @@ Final submission for **both** tracks consists of three components:
 
 Each topic below is a starting point, not a script—your group is expected to refine the question, justify your data choices, and make real modeling decisions. All projects must include both an **econometric baseline** and a **machine learning comparison**, and must satisfy the code standards in the main spec.
 
-> [!IMPORTANT]
 > **Enrollment Cap:** A maximum of **15 groups** may sign up for each topic. Sign-ups are first-come, first-served via the sign-up sheet. Once a topic hits 15 groups, it closes; you must pick another or move to Track B (Reproductions).
 
 ---
@@ -199,7 +208,7 @@ Nowcast monthly housing price changes for a chosen metro area.
 
 For Track B, your group will attempt to replicate the results from a high-impact economics paper using Python. Each of the papers listed below received a **2025 or 2026 Best Paper Award** from the *American Economic Journal (AEJ)*.
 
-## The Task
+## Main Objective
 
 Your objective is to reproduce the analysis using Python and the data science tools introduced in this course. 
 
