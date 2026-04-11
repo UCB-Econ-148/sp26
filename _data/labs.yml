@@ -32,7 +32,8 @@ labs:
   - title: "Survival Analysis"
     link: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab08%2Flab08.ipynb"
   - skip: true
-  - title: "Time Series"
   - skip: true
-  - title: "Lab 10"
-  - title: "Lab 11"
+  - skip: true
+  - title: "Time Series"
+    link: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flab%2Flab09%2Flab09.ipynb"
+  - skip: true
