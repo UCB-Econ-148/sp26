@@ -69,7 +69,7 @@ You may use AI assistants (Claude, ChatGPT, Copilot, etc.) for this project. How
 ## Project and Group Sign Up
 Good collaboration and leadership will be needed for a successful reproduction. We ask that you organize yourself in groups of 3-5. Groups may have members from different discussion sections. We encourage you to use Ed as a place to look for team members.
 
-We have included a group [sign up sheet](https://docs.google.com/spreadsheets/d/1A5QKqW-8yZ6fRtVc5YPWOSnk5j9AtxBjtRx6RK7ZiJQ/edit?usp=sharing). Please fill out your full name and Berkeley email accordingly under the Group Signup subsheet. All groups should be finalized and we will close the sheets on April 15th at 11:59 pm.
+We have included a group [sign up sheet](https://docs.google.com/spreadsheets/d/1A5QKqW-8yZ6fRtVc5YPWOSnk5j9AtxBjtRx6RK7ZiJQ/edit?usp=sharing). Please fill out your full name and Berkeley email accordingly under the Group Signup subsheet. All groups should be finalized and we will close the sheets on **April 15th at 11:59 pm**.
 
 You also have to decide a group leader who will be main contact for new members and other logistics within the group. Please only reach out to the group leader for any inquiries about joining the group.
 
@@ -93,7 +93,7 @@ This will be a separate Gradescope assignment that will be due earlier. There is
 * **Group Composition:** Names and assigned responsibilities.
 * **Chosen Paper:** Citation/Title of the selected paper.
 * **Project Organization:** Screenshots of the code organization (including any relevant data, notebooks, or scripts).
-* **LaTeX Setup:** Screenshots of the LaTeX project in Overleaf following the **I4R template**.
+* **LaTeX Setup:** Screenshots of the LaTeX project in Overleaf following the I4R template.
 * **Progress Report:** A description of what you have attempted to do so far.
 * **Status Summary:** A summary of what is going well and what you are struggling with.
 * **Staff Support:** A note on how course staff may help you succeed.
