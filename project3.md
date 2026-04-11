@@ -151,57 +151,61 @@ Each topic below is a starting point, not a script—your group is expected to r
 ---
 
 ### 1. Sovereign Credit Rating Reproduction
-Build a model that predicts S&P or Moody's sovereign credit ratings from publicly available macro indicators, following the spirit of Cantor and Packer (1996). 
+Build a model that predicts S&P or Moody's sovereign credit ratings from publicly available macro indicators, following the spirit of Cantor and Packer (1996). Pull country-level data from World Bank WDI and IMF WEO (GDP per capita, growth, inflation, external debt, fiscal balance, default history). Scrape current ratings from the Wikipedia "List of countries by credit rating" page. Baseline: ordered logit or probit. ML comparison: ordinal random forest or gradient boosting. Discuss which countries the model misses and why.
 
-* **Data Sources:** Pull country-level data from World Bank WDI and IMF WEO (GDP per capita, growth, inflation, external debt, fiscal balance, default history). Scrape current ratings from Wikipedia.
-* **Baseline:** Ordered logit or probit. 
-* **ML Comparison:** Ordinal random forest or gradient boosting. 
+* **Data Sources:** 
+    * [Recent Dataset](https://docs.google.com/spreadsheets/d/1bZfjEq5cSZBtv9iJ1EAioHugXw-asJ4s/edit?usp=drive_link&ouid=101663326369712854499&rtpof=true&sd=true)
+    * [Wikipedia Data](https://en.wikipedia.org/wiki/List_of_countries_by_credit_rating)
 
 ---
 
 ### 2. GDP Nowcasting from Mixed-Frequency Indicators
-Nowcast current-quarter US real GDP growth using monthly and weekly indicators released before the BEA advance estimate. 
+Nowcast current-quarter US real GDP growth using monthly and weekly indicators released before the BEA advance estimate. Pull data from FRED via fredapi: industrial production, retail sales, nonfarm payrolls, ISM, initial claims, and similar series. Target: BEA quarterly GDP. Baseline: bridge equation or simple monthly-to-quarterly aggregation with OLS. ML comparison: dynamic factor model or a simple recurrent network. Benchmark your nowcasts against the Atlanta Fed's GDPNow.  
 
-* **Data Sources:** Pull data from FRED via `fredapi`: industrial production, retail sales, nonfarm payrolls, ISM, initial claims, etc. 
-* **Target:** BEA quarterly GDP. 
-* **Baseline:** Bridge equation or simple monthly-to-quarterly aggregation with OLS. 
-* **ML Comparison:** Dynamic factor model or a simple recurrent network. 
+* **Data Sources:** 
+    * [Atlanta Fed](https://www.atlantafed.org/research-and-data/data/gdpnow)
+    * [New York Fed](https://www.newyorkfed.org/research/policy/nowcast/#nowcast/2026:Q1)
+* **Referece Papers:**
+    * [Fed Research](https://www.federalreserve.gov/econres/ifdp/files/ifdp1385.pdf)
+    * [UN Reserach](https://unctad.org/publication/economic-nowcasting-long-short-term-memory-artificial-neural-networks-lstm)
+    * [Daniel Hopp](https://www.researchgate.net/publication375338704_Benchmarking_econometric_and_machine_learning_methodologies_in_nowcasting_GDP)
 
 ---
 
 ### 3. State Unemployment Insurance Claims Forecasting
-Forecast weekly initial unemployment insurance claims for three to five US states using FRED's state-level claims series.
+Forecast weekly initial unemployment insurance claims for three to five US states using FRED's state-level claims series (e.g., CAICLAIMS, TXICLAIMS, NYICLAIMS, FLICLAIMS, MIICLAIMS), accessed via fredapi with a free API key. Augment with state-level Google Trends data for unemployment-related search terms, pulled via the pytrends package and cached to CSV for reproducibility. Baseline: ARIMA or OLS with lagged claims and seasonal dummies. ML comparison: gradient boosting (XGBoost or LightGBM) or a small LSTM. Groups must explicitly address how they handle the COVID structural break, and should pick states with contrasting labor market structures (e.g., a tech-heavy state, a manufacturing state, a tourism-dependent state) to compare model performance across contexts.
 
-* **Data Sources:** `CAICLAIMS`, `TXICLAIMS`, etc., via `fredapi`. Augment with state-level Google Trends data (via `pytrends`).
-* **Baseline:** ARIMA or OLS with lagged claims and seasonal dummies. 
-* **ML Comparison:** Gradient boosting (XGBoost/LightGBM) or a small LSTM. 
+* **Data Sources:** 
+    * [FRED CAICLAIMS](https://fred.stlouisfed.org/series/CAICLAIMS)
+    * [FRED TXICLAIMS](https://fred.stlouisfed.org/series/TXICLAIMS)
+    * [FRED ICNSA](https://fred.stlouisfed.org/series/ICNSA)
 
 ---
 
 ### 4. Intergenerational Mobility Across US Counties
-Use the Opportunity Insights county-level mobility data to predict upward mobility from county characteristics.
+Use the Opportunity Insights county-level mobility data to build a model predicting upward mobility from county characteristics: segregation, school quality, family structure, income inequality, and commuting patterns. Baseline: OLS with the variables Chetty and coauthors emphasize. ML comparison: random forest with feature importance analysis. The interesting question is not just predictive accuracy but whether ML uncovers interactions that the linear model misses, and what those interactions imply for policy.
 
-* **Variables:** Segregation, school quality, family structure, income inequality, and commuting patterns. 
-* **Baseline:** OLS using the variables emphasized by Chetty et al. 
-* **ML Comparison:** Random forest with feature importance analysis. 
+* **Data Sources:** 
+    * [Opportunity Insight](https://opportunityinsights.org/data/)
+    * [2014 County Level Data](https://opportunityinsights.org/paper/land-of-opportunity/)
+    * [2018 Census Tract Data](https://opportunityinsights.org/paper/the-opportunity-atlas/)
 
 ---
 
 ### 5. Election Forecasting from Economic Fundamentals
-Replicate and extend a fundamentals-based presidential election model (e.g., Abramowitz's "Time for Change" or the Fair model).
+Replicate and extend a fundamentals-based presidential election model along the lines of Abramowitz's "Time for Change" or the Fair model, using FRED data on growth, inflation, and unemployment plus presidential approval from Gallup or 538's archive. Baseline: OLS, the original specification. ML comparison: regularized regression (Lasso or Ridge) given the small sample.  Use county level voting data for voting and for explanatory variables.  
 
-* **Data Sources:** FRED (growth, inflation, unemployment) and presidential approval from Gallup or 538. Use county-level voting data for explanatory variables.
-* **Baseline:** OLS (original specification). 
-* **ML Comparison:** Regularized regression (Lasso or Ridge) given the small sample size.
+* **Data Sources:** 
+    * [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ)
+    * [Economic Data Tracker](https://github.com/elliottmorris/Economic-data-tracker/)
+    * [Trump's Job Approval by Geography and Demographics](https://projects.gelliottmorris.com/trump-approval/)
 
 ---
 
 ### 6. Local Housing Price Nowcasting
-Nowcast monthly housing price changes for a chosen metro area.
+Nowcast monthly housing price changes for a chosen metro area using Zillow ZHVI as the target and a mix of FRED macro series, Census ACS demographics, and mortgage rate data as features. Baseline: OLS or ARIMA. ML comparison: gradient boosting or a small neural network. Pick at least three metros with different market dynamics (e.g., Bay Area, Austin, Cleveland) and compare what features matter where.
 
-* **Data Sources:** Zillow ZHVI (Target) and a mix of FRED macro series, Census ACS demographics, and mortgage rate data (Features). 
-* **Baseline:** OLS or ARIMA. 
-* **ML Comparison:** Gradient boosting or a small neural network. 
+* **Data Sources:** [Zillow ZHVI](https://www.zillow.com/research/data/)  
 
 ---
 
