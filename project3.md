@@ -102,7 +102,7 @@ This will be a separate Gradescope assignment that will be due earlier. There is
 
 ### Checkpoint 2
 
-One person from your group must fill out the designated **Google Form** for this checkpoint. 
+One person from your group must fill out the designated [Google Form](https://forms.gle/zoaZkk6PjSqhpChG8) for this checkpoint. 
 
 * **Requirement:** While the form provides space to discuss up to 5 results, you are only required to discuss **3**.
 
