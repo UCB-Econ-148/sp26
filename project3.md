@@ -57,8 +57,8 @@ You may use AI assistants (Claude, ChatGPT, Copilot, etc.) for this project. How
 
 > **Note:** Late submissions are not accepted at any stage. After group sign-up closes, discussion sections become optional office hours.
 
-* **April 15:** Group sign-up closes (Groups of 3–5).
-* **April 17:** Finalized topic selection.
+* **April 17:** Group sign-up closes (Groups of 3–5).
+* **April 19:** Finalized topic selection.
 * **April 24:** Checkpoint 1 Due. (Short PDF: roles, track, topic, and repository screenshots).
 * **May 1:** Checkpoint 2 Due. (Google Form: report on at least 3 successful/attempted results).
 * **May 6:** Final Project Due.
