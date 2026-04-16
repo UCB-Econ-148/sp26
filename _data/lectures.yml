@@ -213,6 +213,14 @@ lectures:
       - links:
         - text: "ML_Adult"
           url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec13.1%2FAdultUCI_Logistic_Annotated.ipynb"
+  - title: "ML Folktables "
+    link: https://docs.google.com/presentation/d/1Iv8wKTvyr9QxwmHNFonSs_-mkZ_wOxWusdW4bsLnPE8/edit?usp=sharing
+    notebooks:
+      - links:
+        - text: "ML_Folktables"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec13.2%2FFairML-Folktables-annotated.ipynb"
+        - text: "ML_PCA_Regularization"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec13.2%2FFairML-Regularization-PCA.ipynb"
 
     # link: https://docs.google.com/presentation/d/1sg7r5B3NHezbgvLOG-q_dq36fJ2-LcjCy7gJlLosuak/edit?usp=sharing
   - title: ""
