@@ -221,6 +221,16 @@ lectures:
           url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec13.2%2FFairML-Folktables-annotated.ipynb"
         - text: "ML_PCA_Regularization"
           url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec13.2%2FFairML-Regularization-PCA.ipynb"
+  - title: "ML Regularization and Bias-Variance Tradeoff"
+    link: https://docs.google.com/presentation/d/1nRKOcqltCoi0IZfge87lj9CYi6rFWnBqypd68K0cXCI/edit?usp=sharing
+    notebooks:
+      - links:
+        - text: "BiasVariance"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec14.1%2F14_1A_BiasVariance.ipynb"
+        - text: "Regularization"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec14.1%2F14_1B_Regularization_NLS.ipynb"
+        - text: "SHAP-Folktables"
+          url: "https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-Econ-148%2Fsp26-student&branch=main&urlpath=lab%2Ftree%2Fsp26-student%2Flec%2Flec14.1%2F14_1C_Folktables_SHAP.ipynb"
 
     # link: https://docs.google.com/presentation/d/1sg7r5B3NHezbgvLOG-q_dq36fJ2-LcjCy7gJlLosuak/edit?usp=sharing
   - title: ""
