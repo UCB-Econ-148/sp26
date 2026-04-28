@@ -104,7 +104,11 @@ This will be a separate Gradescope assignment that will be due earlier. There is
 
 One person from your group must fill out the designated [Google Form](https://forms.gle/zoaZkk6PjSqhpChG8) for this checkpoint. 
 
-* **Requirement:** While the form provides space to discuss up to 5 results, you are only required to discuss **3**.
+* **Requirement:**  
+    * **Track A**: Showcase summary statistic tables, initial model setup/results, or any relevant EDA results. There is no strict number requirement. 
+    * **Track B**: While the form provides space to discuss up to 5 results, you are only required to discuss **3**.
+
+
 
 ---
 
