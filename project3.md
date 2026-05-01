@@ -127,7 +127,6 @@ Final submission for **both** tracks consists of three components:
 
 ## Report Requirements
 
-
 | Feature | Track A: Open Data | Track B: Paper Reproduction |
 | :--- | :--- | :--- |
 | **Reproducibility** (10 pts) | Whether Colab or Zip file runs start to finish. | Whether Colab or Zip file runs start to finish. |
@@ -138,6 +137,7 @@ Final submission for **both** tracks consists of three components:
 | **Results** (15 pts) | Trends, regression tables, and coefficient explanations. | Replicate original graphs/tables as closely as possible. |
 | **Discussion** (15 pts) | Data hurdles and limitations that could skew findings. | Reproduction hurdles and whether full replication was achieved. |
 | **AI Usage** (5 pts) | Document help with code optimization or data cleaning. | Document help with code translation or LaTeX formatting. |
+
 ---
 
 ## Enrollment and Topic Selection
