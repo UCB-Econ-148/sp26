@@ -127,6 +127,7 @@ Final submission for **both** tracks consists of three components:
 
 ## Report Requirements & Rubric
 
+
 | Feature | Track A: Open Data | Track B: Paper Reproduction |
 | :--- | :--- | :--- |
 | **Reproducibility** (10 pts) | Whether Colab or Zip file runs start to finish. | Whether Colab or Zip file runs start to finish. |
