@@ -18,7 +18,7 @@ nav_order: 7
     * [Checkpoint 1](#checkpoint-1)
     * [Checkpoint 2](#checkpoint-2)
     * [Final Submission](#final-submission)
-* [Report Requirements](#report-requirements)
+* [Report Requirements & Rubric](#report-requirements)
 * [Enrollment and Topic Selection](#enrollment-and-topic-selection)
 * [Track A: Starter Topics](#track-a-starter-topics)
 * [Track B: Paper Reproduction](#track-b-paper-reproduction)
@@ -125,17 +125,18 @@ Final submission for **both** tracks consists of three components:
 
 ---
 
-## Report Requirements
+## Report Requirements & Rubric
 
 | Feature | Track A: Open Data | Track B: Paper Reproduction |
 | :--- | :--- | :--- |
-| **Introduction** | Define a specific policy/business challenge and its significance. | Summarize the original paper’s contribution and causal mechanism. |
-| **Data** | Detail source (APIs, scraping), cleaning methods, and summary stats. | Detail access to original data vs. your own. Provide summary stats. |
-| **Model** | Justify method choice. Show the logic and variable selection. | State the original model and exact equations authors used. |
-| **Results** | Trends, regression tables, and coefficient explanations. | Replicate original graphs/tables as closely as possible. |
-| **Discussion** | Data hurdles and limitations that could skew findings. | Reproduction hurdles and whether full replication was achieved. |
-| **AI Usage** | Document help with code optimization or data cleaning. | Document help with code translation or LaTeX formatting. |
-
+| **Reproducibility** (10 pts) | Whether Colab or Zip file runs start to finish. | Whether Colab or Zip file runs start to finish. |
+| **Introduction** (5 pts) | Define a specific policy/business challenge and its significance. | Summarize the original paper’s contribution and causal mechanism. |
+| **Track Specific** (10 pts) | Detailed description of where the data is accessed or made. | Address the main findings and conclusions of the paper; state if it can be replicated. |
+| **Data** (20 pts) | Detail source (APIs, scraping), cleaning methods, and summary stats. EDA and Describe. | Detail access to original data vs. your own. Provide summary stats. |
+| **Model** (20 pts) | Justify method choice. Show the logic and variable selection. | State the original model and exact equations authors used. |
+| **Results** (15 pts) | Trends, regression tables, and coefficient explanations. | Replicate original graphs/tables as closely as possible. |
+| **Discussion** (15 pts) | Data hurdles and limitations that could skew findings. | Reproduction hurdles and whether full replication was achieved. |
+| **AI Usage** (5 pts) | Document help with code optimization or data cleaning. | Document help with code translation or LaTeX formatting. |
 ---
 
 ## Enrollment and Topic Selection
