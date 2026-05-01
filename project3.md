@@ -18,7 +18,7 @@ nav_order: 7
     * [Checkpoint 1](#checkpoint-1)
     * [Checkpoint 2](#checkpoint-2)
     * [Final Submission](#final-submission)
-* [Report Requirements & Rubric](#report-requirements)
+* [Report Requirements](#report-requirements)
 * [Enrollment and Topic Selection](#enrollment-and-topic-selection)
 * [Track A: Starter Topics](#track-a-starter-topics)
 * [Track B: Paper Reproduction](#track-b-paper-reproduction)
@@ -125,7 +125,7 @@ Final submission for **both** tracks consists of three components:
 
 ---
 
-## Report Requirements & Rubric
+## Report Requirements
 
 
 | Feature | Track A: Open Data | Track B: Paper Reproduction |
